@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+  background-image: url('https://placekitten.com/1280/720');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Pretendard-Regular', sans-serif;
+  font-weight: 700;
+  font-size: 5em;
+  background-color: #FFF;
+  padding: 0.2em;
+}
